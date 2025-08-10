@@ -25,8 +25,7 @@ scissors = '''
       (____)
 ---.__(___)
 '''
-print("What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors")
-user_choice = int(input())
+user_choice = int(input("What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors: "))
 if user_choice == 0:
     print(rock)
 elif user_choice == 1:

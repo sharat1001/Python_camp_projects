@@ -1,2 +1,2 @@
-# These programs are part of the boot camp program from UDemy. 
+# These are some daily practice programs 
 

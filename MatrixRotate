@@ -1,0 +1,11 @@
+def rotate(matrix):
+    transposed = [[matrix[j][i] for j in range(len(matrix))] for i in range(len(matrix[0]))]
+    rotated = [row[::-1] for row in transposed]
+    return rotated 
+
+matrix = [[1, 2], 
+          [3, 4]]
+
+print(matrix)
+print(len(matrix))
+print(rotate(matrix))

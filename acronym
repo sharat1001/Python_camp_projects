@@ -1,0 +1,13 @@
+def build_acronym(s):
+    ign = {"a", "for", "an", "and", "by", "of"}
+    temp = s.split()
+    for item in ign:
+        if temp[0].lower() == item:
+            pass
+        elif item in temp and item != temp[0]:
+            temp.remove(item)
+            break
+    return ''.join([i[0].capitalize() for i in temp])
+    
+
+print(build_acronym("An unstoppable herd of waddling penguins overtakes the icy mountains and sings happily"))
